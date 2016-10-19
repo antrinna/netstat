@@ -5,7 +5,7 @@ Steps of work:
 
 1.	compile the source code to .exe
 
-2.	place all .shp, .txt, .exe files in one directory with net_stat_cmd.exe
+2.	place .shp of roads and points, shpdump.exe files in one directory with net_stat-detour_ind_cmd.exe
 
 3.	split roads by Sanet(or ArcGIS), if not sure in the quality of road file
 
@@ -17,6 +17,6 @@ Steps of work:
 
 6.	run the programm in cmd:
 
-"net_stat_cmd.exe" and follow requests
+"net_stat-detour_ind_cmd.exe" and follow requests
 
 7.	build the plots in your software of choice (e.g. Excel)
